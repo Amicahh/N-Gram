@@ -1,14 +1,29 @@
-# Ignore system and IDE-specific files
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
-.cache/
-.gitconfig
-
-# Ignore Python bytecode
-*.pyc
+# Bytecode files
 __pycache__/
+*.py[cod]
 
-# Ignore large or unnecessary files
-text_data/
+# Virtual environment
+venv/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Data files
+*.csv
+*.sql
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+
+# Compiled files
+*.out
+*.o
