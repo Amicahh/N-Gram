@@ -1,0 +1,14 @@
+# Ignore system and IDE-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cache/
+.gitconfig
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore large or unnecessary files
+text_data/
